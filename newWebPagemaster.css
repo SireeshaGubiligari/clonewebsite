@@ -1,0 +1,49 @@
+.editcard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name-on-card {
+  flex: 1 0 140px;
+}
+
+.cc-num {
+  flex: 1 0 140px;
+}
+
+.cc-upi {
+  flex: 1 0 140px;
+}
+
+.cvv-cc {
+  flex: 1 0 140px;
+}
+
+.exp {
+  flex: 1 0 140px;
+}
+
+.addToCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+@property --hue {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 0;
+}
+
+@property --rotate {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 0;
+}
+
+@property --bg-y {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 0;
+}
